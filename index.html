@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jai Shree Ram</title>
+    <link rel="icon" type="image/x-icon" href="image\title.png">
+
     <link rel="stylesheet" href="index.css">
 
 
@@ -26,7 +28,7 @@
 
     <div class="video-container">
         <video id="videoLogo" autoplay muted loop>
-            <source src="image\Video by ayodhya.view.mp4" type="video/mp4">
+            <source src="image\Video by ayodhya.view (1).mp4" type="video/mp4">
         </video>
     </div>
 
@@ -70,7 +72,7 @@ Wishes from Jay Changani
 
 
     <button id="muteButton">
-        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-volume-mute"></i>
     </button>
 
 
@@ -82,6 +84,8 @@ Wishes from Jay Changani
             const muteButton = document.getElementById("muteButton");
             const backgroundMusic = document.getElementById("backgroundMusic");
 
+            console.log("Window Loaded");
+
             muteButton.addEventListener("click", function () {
                 if (backgroundMusic.paused) {
                     backgroundMusic.play();
@@ -92,6 +96,7 @@ Wishes from Jay Changani
                 }
             });
         });
+
 
     </script>
 
