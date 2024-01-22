@@ -76,13 +76,12 @@ Wishes from Jay Changani
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
     <script>
+
         document.addEventListener("DOMContentLoaded", function () {
             // Mute button
             const muteButton = document.getElementById("muteButton");
             const backgroundMusic = document.getElementById("backgroundMusic");
 
-
-            window.onload()
             muteButton.addEventListener("click", function () {
                 if (backgroundMusic.paused) {
                     backgroundMusic.play();
@@ -92,8 +91,8 @@ Wishes from Jay Changani
                     muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
                 }
             });
-            
         });
+
     </script>
 
 </body>
